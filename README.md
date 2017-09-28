@@ -63,13 +63,13 @@
 
 Follow-Up Automation was created to in terms of being a starting example purpose.
 
-![Preview Thumbnail](https://raw.githubusercontent.com/Dentrax/follow-up-system-automation/master/src/izinTakipSistemi/Thumbnails/Login.png)
+![Preview Thumbnail](https://github.com/Dentrax/follow-up-system-automation/tree/master/thumbnails/Login.png)
 
-![Preview Thumbnail](https://raw.githubusercontent.com/Dentrax/follow-up-system-automation/master/src/izinTakipSistemi/Thumbnails/Register.png)
+![Preview Thumbnail](https://github.com/Dentrax/follow-up-system-automation/tree/master/thumbnails/Register.png)
 
-![Preview Thumbnail](https://raw.githubusercontent.com/Dentrax/follow-up-system-automation/master/src/izinTakipSistemi/Thumbnails/UserPanel.png)
+![Preview Thumbnail](https://github.com/Dentrax/follow-up-system-automation/tree/master/thumbnails/UserPanel.png)
 
-![Preview Thumbnail](https://raw.githubusercontent.com/Dentrax/follow-up-system-automation/master/src/izinTakipSistemi/Thumbnails/AdminPanel.png)
+![Preview Thumbnail](https://github.com/Dentrax/follow-up-system-automation/tree/master/thumbnails/AdminPanel.png)
 
 ## Collaborators
 
