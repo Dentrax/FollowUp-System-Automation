@@ -28,7 +28,7 @@ public final class SQL {
     public static final String PROPERTIES= "?useUnicode=true&characterEncoding=utf8"; 
     public static final String DRIVER = "com.mysql.jdbc.Driver";
     public static final String USERNAME = "root"; 
-    public static final String PASSWORD = "123456";
+    public static final String PASSWORD = "1234";
     
     public calisan Calisan;
     
