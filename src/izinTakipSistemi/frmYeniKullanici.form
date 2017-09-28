@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="YEN&#x130; KULLANICI"/>
+    <Property name="alwaysOnTop" type="boolean" value="true"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="btnIptal" alignment="0" max="32767" attributes="0"/>
+                  <Component id="btnKullaniciEkle" alignment="0" max="32767" attributes="0"/>
+                  <Component id="btnTemizle" alignment="0" max="32767" attributes="0"/>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="lblSehir" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              <Component id="lblDogumTarihi" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="cbDogumAy" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                              <Component id="cbDogumGun" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="cbDogumYil" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="cbSehir" min="-2" pref="148" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblKullaniciAdi" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblSoyad" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblTCNo" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblAd" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblSifre" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblSicilNo" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblCinsiyet" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblBirim" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="cbBirim" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="cbCinsiyet" alignment="0" pref="154" max="32767" attributes="0"/>
+                              <Component id="txtSoyad" alignment="0" max="32767" attributes="0"/>
+                              <Component id="txtAd" alignment="0" max="32767" attributes="0"/>
+                              <Component id="txtTCNo" alignment="0" max="32767" attributes="0"/>
+                              <Component id="txtSifre" alignment="0" max="32767" attributes="0"/>
+                              <Component id="txtKullaniciAdi" alignment="0" max="32767" attributes="0"/>
+                              <Component id="txtSicilNo" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblKullaniciAdi" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtKullaniciAdi" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lblSifre" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtSifre" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                      <Component id="lblAd" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblSoyad" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtSoyad" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                      <Component id="txtAd" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtTCNo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblTCNo" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="txtSicilNo" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblSicilNo" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lblCinsiyet" min="-2" max="-2" attributes="0"/>
+                  <Component id="cbCinsiyet" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lblBirim" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="cbBirim" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="cbDogumAy" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cbDogumGun" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cbDogumYil" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblDogumTarihi" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="cbSehir" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblSehir" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="btnKullaniciEkle" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="btnTemizle" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="btnIptal" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="btnKullaniciEkle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Kullan&#x131;c&#x131; Ekle"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnKullaniciEkleActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnIptal">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x130;ptal Et"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnIptalActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnTemizle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="T&#xfc;m&#xfc;n&#xfc; Temizle"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnTemizleActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblKullaniciAdi">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Kullan&#x131;c&#x131; Ad&#x131; :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblSifre">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x15e;ifre :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblAd">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ad :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblSoyad">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Soyad : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTCNo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="TC No :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblSicilNo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Sicil No :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCinsiyet">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cinsiyet :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDogumTarihi">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Do&#x11f;um Tarihi :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblSehir">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x15e;ehir : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtKullaniciAdi">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtAd">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtSoyad">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtTCNo">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtSicilNo">
+    </Component>
+    <Component class="javax.swing.JPasswordField" name="txtSifre">
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbCinsiyet">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="2">
+            <StringItem index="0" value="Erkek"/>
+            <StringItem index="1" value="Kad&#x131;n"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbDogumAy">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="12">
+            <StringItem index="0" value="1"/>
+            <StringItem index="1" value="2"/>
+            <StringItem index="2" value="3"/>
+            <StringItem index="3" value="4"/>
+            <StringItem index="4" value="5"/>
+            <StringItem index="5" value="6"/>
+            <StringItem index="6" value="7"/>
+            <StringItem index="7" value="8"/>
+            <StringItem index="8" value="9"/>
+            <StringItem index="9" value="10"/>
+            <StringItem index="10" value="11"/>
+            <StringItem index="11" value="12"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbDogumGun">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="31">
+            <StringItem index="0" value="1"/>
+            <StringItem index="1" value="2"/>
+            <StringItem index="2" value="3"/>
+            <StringItem index="3" value="4"/>
+            <StringItem index="4" value="5"/>
+            <StringItem index="5" value="6"/>
+            <StringItem index="6" value="7"/>
+            <StringItem index="7" value="8"/>
+            <StringItem index="8" value="9"/>
+            <StringItem index="9" value="10"/>
+            <StringItem index="10" value="11"/>
+            <StringItem index="11" value="12"/>
+            <StringItem index="12" value="13"/>
+            <StringItem index="13" value="14"/>
+            <StringItem index="14" value="15"/>
+            <StringItem index="15" value="16"/>
+            <StringItem index="16" value="17"/>
+            <StringItem index="17" value="18"/>
+            <StringItem index="18" value="19"/>
+            <StringItem index="19" value="20"/>
+            <StringItem index="20" value="21"/>
+            <StringItem index="21" value="22"/>
+            <StringItem index="22" value="23"/>
+            <StringItem index="23" value="24"/>
+            <StringItem index="24" value="25"/>
+            <StringItem index="25" value="26"/>
+            <StringItem index="26" value="27"/>
+            <StringItem index="27" value="28"/>
+            <StringItem index="28" value="29"/>
+            <StringItem index="29" value="30"/>
+            <StringItem index="30" value="31"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbDogumYil">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="118">
+            <StringItem index="0" value="2017"/>
+            <StringItem index="1" value="2016"/>
+            <StringItem index="2" value="2015"/>
+            <StringItem index="3" value="2014"/>
+            <StringItem index="4" value="2013"/>
+            <StringItem index="5" value="2012"/>
+            <StringItem index="6" value="2011"/>
+            <StringItem index="7" value="2010"/>
+            <StringItem index="8" value="2009"/>
+            <StringItem index="9" value="2008"/>
+            <StringItem index="10" value="2007"/>
+            <StringItem index="11" value="2006"/>
+            <StringItem index="12" value="2005"/>
+            <StringItem index="13" value="2004"/>
+            <StringItem index="14" value="2003"/>
+            <StringItem index="15" value="2002"/>
+            <StringItem index="16" value="2001"/>
+            <StringItem index="17" value="2000"/>
+            <StringItem index="18" value="1999"/>
+            <StringItem index="19" value="1998"/>
+            <StringItem index="20" value="1997"/>
+            <StringItem index="21" value="1996"/>
+            <StringItem index="22" value="1995"/>
+            <StringItem index="23" value="1994"/>
+            <StringItem index="24" value="1993"/>
+            <StringItem index="25" value="1992"/>
+            <StringItem index="26" value="1991"/>
+            <StringItem index="27" value="1990"/>
+            <StringItem index="28" value="1989"/>
+            <StringItem index="29" value="1988"/>
+            <StringItem index="30" value="1987"/>
+            <StringItem index="31" value="1986"/>
+            <StringItem index="32" value="1985"/>
+            <StringItem index="33" value="1984"/>
+            <StringItem index="34" value="1983"/>
+            <StringItem index="35" value="1982"/>
+            <StringItem index="36" value="1981"/>
+            <StringItem index="37" value="1980"/>
+            <StringItem index="38" value="1979"/>
+            <StringItem index="39" value="1978"/>
+            <StringItem index="40" value="1977"/>
+            <StringItem index="41" value="1976"/>
+            <StringItem index="42" value="1975"/>
+            <StringItem index="43" value="1974"/>
+            <StringItem index="44" value="1973"/>
+            <StringItem index="45" value="1972"/>
+            <StringItem index="46" value="1971"/>
+            <StringItem index="47" value="1970"/>
+            <StringItem index="48" value="1969"/>
+            <StringItem index="49" value="1968"/>
+            <StringItem index="50" value="1967"/>
+            <StringItem index="51" value="1966"/>
+            <StringItem index="52" value="1965"/>
+            <StringItem index="53" value="1964"/>
+            <StringItem index="54" value="1963"/>
+            <StringItem index="55" value="1962"/>
+            <StringItem index="56" value="1961"/>
+            <StringItem index="57" value="1960"/>
+            <StringItem index="58" value="1959"/>
+            <StringItem index="59" value="1958"/>
+            <StringItem index="60" value="1957"/>
+            <StringItem index="61" value="1956"/>
+            <StringItem index="62" value="1955"/>
+            <StringItem index="63" value="1954"/>
+            <StringItem index="64" value="1953"/>
+            <StringItem index="65" value="1952"/>
+            <StringItem index="66" value="1951"/>
+            <StringItem index="67" value="1950"/>
+            <StringItem index="68" value="1949"/>
+            <StringItem index="69" value="1948"/>
+            <StringItem index="70" value="1947"/>
+            <StringItem index="71" value="1946"/>
+            <StringItem index="72" value="1945"/>
+            <StringItem index="73" value="1944"/>
+            <StringItem index="74" value="1943"/>
+            <StringItem index="75" value="1942"/>
+            <StringItem index="76" value="1941"/>
+            <StringItem index="77" value="1940"/>
+            <StringItem index="78" value="1939"/>
+            <StringItem index="79" value="1938"/>
+            <StringItem index="80" value="1937"/>
+            <StringItem index="81" value="1936"/>
+            <StringItem index="82" value="1935"/>
+            <StringItem index="83" value="1934"/>
+            <StringItem index="84" value="1933"/>
+            <StringItem index="85" value="1932"/>
+            <StringItem index="86" value="1931"/>
+            <StringItem index="87" value="1930"/>
+            <StringItem index="88" value="1929"/>
+            <StringItem index="89" value="1928"/>
+            <StringItem index="90" value="1927"/>
+            <StringItem index="91" value="1926"/>
+            <StringItem index="92" value="1925"/>
+            <StringItem index="93" value="1924"/>
+            <StringItem index="94" value="1923"/>
+            <StringItem index="95" value="1922"/>
+            <StringItem index="96" value="1921"/>
+            <StringItem index="97" value="1920"/>
+            <StringItem index="98" value="1919"/>
+            <StringItem index="99" value="1918"/>
+            <StringItem index="100" value="1917"/>
+            <StringItem index="101" value="1916"/>
+            <StringItem index="102" value="1915"/>
+            <StringItem index="103" value="1914"/>
+            <StringItem index="104" value="1913"/>
+            <StringItem index="105" value="1912"/>
+            <StringItem index="106" value="1911"/>
+            <StringItem index="107" value="1910"/>
+            <StringItem index="108" value="1909"/>
+            <StringItem index="109" value="1908"/>
+            <StringItem index="110" value="1907"/>
+            <StringItem index="111" value="1906"/>
+            <StringItem index="112" value="1905"/>
+            <StringItem index="113" value="1904"/>
+            <StringItem index="114" value="1903"/>
+            <StringItem index="115" value="1902"/>
+            <StringItem index="116" value="1901"/>
+            <StringItem index="117" value="1900"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbSehir">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="81">
+            <StringItem index="0" value="1.Adana &#x9;"/>
+            <StringItem index="1" value="2.Ad&#x131;yaman &#x9;"/>
+            <StringItem index="2" value="3.Afyonkarahisar &#x9;"/>
+            <StringItem index="3" value="4.A&#x11f;r&#x131; &#x9;"/>
+            <StringItem index="4" value="5.Amasya &#x9;"/>
+            <StringItem index="5" value="6.Ankara &#x9;"/>
+            <StringItem index="6" value="7.Antalya &#x9;"/>
+            <StringItem index="7" value="8.Artvin &#x9;"/>
+            <StringItem index="8" value="9.Ayd&#x131;n &#x9;"/>
+            <StringItem index="9" value="10.Bal&#x131;kesir"/>
+            <StringItem index="10" value="11.Bilecik &#x9;"/>
+            <StringItem index="11" value="12.Bing&#xf6;l &#x9;"/>
+            <StringItem index="12" value="13.Bitlis &#x9;"/>
+            <StringItem index="13" value="14.Bolu"/>
+            <StringItem index="14" value="15.Burdur &#x9;"/>
+            <StringItem index="15" value="16.Bursa &#x9;"/>
+            <StringItem index="16" value="17.&#xc7;anakkale &#x9;"/>
+            <StringItem index="17" value="18.&#xc7;ank&#x131;r&#x131; &#x9;"/>
+            <StringItem index="18" value="19.&#xc7;orum &#x9;"/>
+            <StringItem index="19" value="20.Denizli &#x9;"/>
+            <StringItem index="20" value="21.Diyarbak&#x131;r &#x9;"/>
+            <StringItem index="21" value="22.Edirne &#x9;"/>
+            <StringItem index="22" value="23.Elaz&#x131;&#x11f; &#x9;"/>
+            <StringItem index="23" value="24.Erzincan"/>
+            <StringItem index="24" value="25.Erzurum &#x9;"/>
+            <StringItem index="25" value="26.Eski&#x15f;ehir &#x9;"/>
+            <StringItem index="26" value="27.Gaziantep &#x9;"/>
+            <StringItem index="27" value="28.Giresun &#x9;"/>
+            <StringItem index="28" value="29.G&#xfc;m&#xfc;&#x15f;hane &#x9;"/>
+            <StringItem index="29" value="30.Hakk&#xe2;ri &#x9;"/>
+            <StringItem index="30" value="31.Hatay &#x9;"/>
+            <StringItem index="31" value="32.Isparta &#x9;"/>
+            <StringItem index="32" value="33.&#x130;&#xe7;el (Mersin) &#x9;"/>
+            <StringItem index="33" value="34.&#x130;stanbul &#x9;"/>
+            <StringItem index="34" value="35.&#x130;zmir &#x9;"/>
+            <StringItem index="35" value="36.Kars &#x9;"/>
+            <StringItem index="36" value="37.Kastamonu &#x9;"/>
+            <StringItem index="37" value="38.Kayseri &#x9;"/>
+            <StringItem index="38" value="39.K&#x131;rklareli &#x9;"/>
+            <StringItem index="39" value="40.K&#x131;r&#x15f;ehir &#x9;"/>
+            <StringItem index="40" value="41.Kocaeli &#x9;"/>
+            <StringItem index="41" value="42.Konya &#x9;"/>
+            <StringItem index="42" value="43.K&#xfc;tahya &#x9;"/>
+            <StringItem index="43" value="44.Malatya &#x9;"/>
+            <StringItem index="44" value="45.Manisa &#x9;"/>
+            <StringItem index="45" value="46.Kahramanmara&#x15f; &#x9;"/>
+            <StringItem index="46" value="47.Mardin &#x9;"/>
+            <StringItem index="47" value="48.Mu&#x11f;la &#x9;"/>
+            <StringItem index="48" value="49.Mu&#x15f; &#x9;"/>
+            <StringItem index="49" value="50.Nev&#x15f;ehir &#x9;"/>
+            <StringItem index="50" value="51.Ni&#x11f;de &#x9;"/>
+            <StringItem index="51" value="52.Ordu &#x9;"/>
+            <StringItem index="52" value="53.Rize &#x9;"/>
+            <StringItem index="53" value="54.Sakarya &#x9;"/>
+            <StringItem index="54" value="55.Samsun &#x9;"/>
+            <StringItem index="55" value="56.Siirt &#x9;"/>
+            <StringItem index="56" value="57.Sinop &#x9;"/>
+            <StringItem index="57" value="58.Sivas &#x9;"/>
+            <StringItem index="58" value="59.Tekirda&#x11f; &#x9;"/>
+            <StringItem index="59" value="60.Tokat &#x9;"/>
+            <StringItem index="60" value="61.Trabzon &#x9;"/>
+            <StringItem index="61" value="62.Tunceli &#x9;"/>
+            <StringItem index="62" value="63.&#x15e;anl&#x131;urfa &#x9;"/>
+            <StringItem index="63" value="64.U&#x15f;ak &#x9;"/>
+            <StringItem index="64" value="65.Van &#x9;"/>
+            <StringItem index="65" value="66.Yozgat &#x9;"/>
+            <StringItem index="66" value="67.Zonguldak &#x9;"/>
+            <StringItem index="67" value="68.Aksaray &#x9;"/>
+            <StringItem index="68" value="69.Bayburt &#x9;"/>
+            <StringItem index="69" value="70.Karaman &#x9;"/>
+            <StringItem index="70" value="71.K&#x131;r&#x131;kkale &#x9;"/>
+            <StringItem index="71" value="72.Batman &#x9;"/>
+            <StringItem index="72" value="73.&#x15e;&#x131;rnak &#x9;"/>
+            <StringItem index="73" value="74.Bart&#x131;n &#x9;"/>
+            <StringItem index="74" value="75.Ardahan &#x9;"/>
+            <StringItem index="75" value="76.I&#x11f;d&#x131;r &#x9;"/>
+            <StringItem index="76" value="77.Yalova &#x9;"/>
+            <StringItem index="77" value="78.Karab&#xfc;k &#x9;"/>
+            <StringItem index="78" value="79.Kilis &#x9;"/>
+            <StringItem index="79" value="80.Osmaniye &#x9;"/>
+            <StringItem index="80" value="81.D&#xfc;zce &#x9;"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblBirim">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Birim : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbBirim">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="5">
+            <StringItem index="0" value="1.Birim"/>
+            <StringItem index="1" value="2.Birim"/>
+            <StringItem index="2" value="3.Birim"/>
+            <StringItem index="3" value="4.Birim"/>
+            <StringItem index="4" value="5.Birim"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+  </SubComponents>
+</Form>
