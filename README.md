@@ -55,9 +55,9 @@
 
 * Make sure `MySQL` server is running
 
-* Change server settings variables on `SQL.java` file what settings are you using
+* Change server settings variables on **[SQL.java](https://github.com/Dentrax/follow-up-system-automation/blob/master/src/izinTakipSistemi/SQL.java)** file what settings are you using
 
-* Execute the `mysql-query.sql` file on your server
+* Execute the **[mysql-query.sql](https://github.com/Dentrax/follow-up-system-automation/blob/master/mysql-query.sql)** file on your server
 
 ## About
 
