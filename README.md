@@ -59,7 +59,7 @@
 
 * Execute the **[mysql-query.sql](https://github.com/Dentrax/follow-up-system-automation/blob/master/mysql-query.sql)** file on your server
 
-* **`!!! Do not forget to hide SQL Connection informations in [SQL.java](https://github.com/Dentrax/follow-up-system-automation/blob/master/src/izinTakipSistemi/SQL.java) file if you think about public sharing !!!`**
+* **`!!! Do not forget to hide SQL Connection informations in SQL.java file if you think about public sharing !!!`**
 
 ## About
 
