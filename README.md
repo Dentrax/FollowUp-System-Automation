@@ -24,15 +24,15 @@
 
 **Uses : `Java` and `MySQL`**
 
-1) `Login`
+**1) `Login`**
 
 > * User/Admin login and register button
 
-2) `Register`
+**2) `Register`**
 
 > * To register into the system by entering the user information
 
-3) `User Panel`
+**3) `User Panel`**
 
 > * The user information display
 > * Allow saving informations
@@ -41,7 +41,7 @@
 > * Accepted and not-accepted permissions listing
 > * To able to view used-rest-days and remaining-rest-days with detailed information
 
-4) `Admin Panel`
+**4) `Admin Panel`**
 
 > * Viewing administrator informations
 > * Listing All User Informations
@@ -53,11 +53,11 @@
 
 ## How To Use
 
-> * Make sure `MySQL` server is running
+* Make sure `MySQL` server is running
 
-> * Change server settings variables on `SQL.java` file what settings are you using
+* Change server settings variables on `SQL.java` file what settings are you using
 
-> * Execute the `mysql-query.sql` file on your server
+* Execute the `mysql-query.sql` file on your server
 
 ## About
 
