@@ -59,17 +59,29 @@
 
 * Execute the **[mysql-query.sql](https://github.com/Dentrax/follow-up-system-automation/blob/master/mysql-query.sql)** file on your server
 
+* **`!!! Do not forget to hide SQL Connection informations if you think about public sharing !!!`**
+
 ## About
 
 Follow-Up Automation was created to in terms of being a starting example purpose.
 
+---
+
 ![Preview Thumbnail](https://raw.githubusercontent.com/Dentrax/follow-up-system-automation/master/thumbnails/Login.png)
+
+---
 
 ![Preview Thumbnail](https://raw.githubusercontent.com/Dentrax/follow-up-system-automation/master/thumbnails/Register.png)
 
+---
+
 ![Preview Thumbnail](https://raw.githubusercontent.com/Dentrax/follow-up-system-automation/master/thumbnails/UserPanel.png)
 
+---
+
 ![Preview Thumbnail](https://raw.githubusercontent.com/Dentrax/follow-up-system-automation/master/thumbnails/AdminPanel.png)
+
+---
 
 ## Collaborators
 
