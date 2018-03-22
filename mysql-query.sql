@@ -1,3 +1,10 @@
+-- ====================================================
+-- Follow-Up System Automation Copyright(C) 2017 Furkan Türkal
+-- This program comes with ABSOLUTELY NO WARRANTY; This is free software,
+-- and you are welcome to redistribute it under certain conditions; See
+-- file LICENSE, which is part of this source code package, for details.
+-- ====================================================
+
 -- MySQL dump 10.13  Distrib 5.7.12, for Win64 (x86_64)
 --
 -- Host: localhost    Database: odev2
